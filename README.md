@@ -5,7 +5,7 @@ A test dashboard project using Angular1 with ES6. Seed project from [stencil-ng1
 
 ## Included Technologies
 
-[Bootstrap](http://getbootstrap.com/), [SCSS](http://sass-lang.com/),[Webpack](https://webpack.github.io/)
+[Bootstrap](http://getbootstrap.com/), [SCSS](http://sass-lang.com/), [Webpack](https://webpack.github.io/)
 
 # Commands
 
