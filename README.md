@@ -1,5 +1,6 @@
-# stencil-ng1
-Angularjs 1.x seed project with webpack + npm only
+
+# ng1-es6-dashboard
+A test dashboard project using ng1
 
 # commands
 
