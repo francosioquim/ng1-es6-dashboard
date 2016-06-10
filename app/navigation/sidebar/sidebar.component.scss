@@ -1,0 +1,48 @@
+$nav-button-color: #085394;
+$nav-button-color-hover: #6A8FB0;
+$grid-color: #6FA8DC;
+.sidebar-nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        line-height: 40px;
+        padding: 8px 0;
+        &.active,
+        &:hover,
+        &:active,
+        &:focus {
+            background: $nav-button-color-hover;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+        &.active {
+            border-color: $grid-color;
+            border-style: solid;
+            border-width: 1px 0 1px 0;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            &:active,
+            &:focus {
+                text-decoration: none;
+            }
+            i.glyphicon {
+                display: block;
+                font-size: 2.6rem;
+                line-height: 3.5rem;
+            }
+            span {
+                display: block;
+                font-size: 1.3rem;
+                line-height: 2.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<div id="wrapper">
+    <header-component></header-component>
+    <!-- Sidebar -->
+    <sidebar-component></sidebar-component>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper"  style="height: {{windowHeight}} ">
+        <div class="box-divider"></div>
+    	<style>.grid .ui-grid-viewport { height: {{windowHeight}} !important; }</style>
+    	<style ng-bind-html="vboxStyle"></style>
+        <ng-view></ng-view>
+    </div>
+    <!-- /#page-content-wrapper -->
+</div>

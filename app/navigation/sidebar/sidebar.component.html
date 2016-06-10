@@ -1,0 +1,58 @@
+<div id="sidebar-wrapper" style="height: {{windowHeight}} ">
+    <ul class="sidebar-nav">
+        <li ng-class="{active: $route.current.activetab == 'favourites'}">
+            <a href="/favourites">
+                <i class="glyphicon glyphicon-star-empty"></i>
+                <span>Favourites</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'dashboard'}">
+            <a href="/dashboard">
+                <i class="glyphicon glyphicon-dashboard"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'messages'}">
+            <a href="/messages">
+                <i class="glyphicon glyphicon-envelope"></i>
+                <span>Messages</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'vreminder'}">
+            <a href="/vreminder">
+                <i class="glyphicon glyphicon-time"></i>
+                <span>vReminder</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'vlab'}">
+            <a href="/vlab">
+                <i class="glyphicon glyphicon-equalizer"></i>
+                <span>vLab</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'vservice'}">
+            <a href="/vservice">
+                <i class="glyphicon glyphicon-heart"></i>
+                <span>vService</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'vappointment'}">
+            <a href="/vappointment">
+                <i class="glyphicon glyphicon-calendar"></i>
+                <span>vAppointment</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'new'}">
+            <a href="/new">
+                <i class="glyphicon glyphicon-plus-sign"></i>
+                <span>New</span>
+            </a>
+        </li>
+        <li ng-class="{active: $route.current.activetab == 'configuration'}">
+            <a href="/configuration">
+                <i class="glyphicon glyphicon-cog"></i>
+                <span>Configuration</span>
+            </a>
+        </li>
+    </ul>
+</div>
