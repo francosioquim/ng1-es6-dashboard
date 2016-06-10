@@ -1,6 +1,6 @@
 
 # ng1-es6-dashboard
-A test dashboard project using Angular1 with ESS6. Seed project from [stencil-ng1](https://github.com/rixrix/stencil-ng1)
+A test dashboard project using Angular1 with ES6. Seed project from [stencil-ng1](https://github.com/rixrix/stencil-ng1)
 
 
 ## Included Technologies
